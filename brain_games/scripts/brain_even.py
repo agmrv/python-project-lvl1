@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
-"""Script of the 'Brain even' game."""
+"""Script of the 'Brain-Even' game."""
 
-from brain_games.brain_even_game import start_even_game, welcome_to_even_game
+from brain_games import game_engine, games
 
 
 def main():
-    """Start the 'Brain Even' game."""
-    welcome_to_even_game()
-    start_even_game()
+    """Start the 'Brain-Even' game."""
+    game_engine.welcome_to_brain_game(games.brain_even_game)
+    game_engine.start_game(games.brain_even_game)
 
 
 if __name__ == '__main__':
