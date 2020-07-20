@@ -1,11 +1,17 @@
 [tool.poetry]
 name = "agmrv_brain_games"
 version = "0.7.0"
-description = ""
+description = "The Brain Games: Even, Calc, GCD, Progression, Prime"
 authors = ["agmrv <agmrv@ya.ru>"]
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "Topic :: Games/Entertainment :: Puzzle Games"
+]
+repository = "https://github.com/agmrv/python-project-lvl1"
 
 [tool.poetry.dependencies]
 python = "^3.8"
