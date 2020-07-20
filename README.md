@@ -10,3 +10,5 @@
 [![asciicast](https://asciinema.org/a/7Mqm9jxTYIABXRmChgZsvHu6p.svg)](https://asciinema.org/a/7Mqm9jxTYIABXRmChgZsvHu6p)
 # How to install the "Brain Games" and run the "Brain-Progression" game:
 [![asciicast](https://asciinema.org/a/TttvIucfG7cAlso6o1txDMFBF.svg)](https://asciinema.org/a/TttvIucfG7cAlso6o1txDMFBF)
+# How to install the "Brain Games" and run the "Brain-Prime" game:
+[![asciicast](https://asciinema.org/a/0mltNNh1CQRbAfN8oCjPzwmyO.svg)](https://asciinema.org/a/0mltNNh1CQRbAfN8oCjPzwmyO)
