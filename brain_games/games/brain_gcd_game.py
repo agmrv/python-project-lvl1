@@ -5,19 +5,19 @@ from random import randint
 RULES = 'Welcome to the Brain Games!\nFind the greatest common divisor of given numbers.\n'
 
 
-def gcd(number1, number2):
-    """Get the GCD of number1 and number2.
+def gcd(num1, num2):
+    """Get the GCD of num1 and num2.
 
     Args:
-        number1: The first num.
-        number2: The second num.
+        num1: The first num.
+        num2: The second num.
 
     Returns:
         return the GCD.
     """
-    if number2 == 0:
-        return number1
-    return gcd(number2, number1 % number2)
+    if num2 == 0:
+        return num1
+    return gcd(num2, num1 % num2)
 
 
 def start_game():
