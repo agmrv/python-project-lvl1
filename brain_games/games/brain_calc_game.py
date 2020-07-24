@@ -2,7 +2,7 @@
 
 from random import choice, randint
 
-RULES = 'Welcome to the Brain Games!\nWhat is the result of the expression?\n'
+RULES = 'What is the result of the expression?'
 
 operators = ('+', '-', '*')
 

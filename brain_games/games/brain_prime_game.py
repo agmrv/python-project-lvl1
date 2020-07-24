@@ -2,7 +2,7 @@
 
 from random import randint
 
-RULES = 'Welcome to the Brain Games!\nAnswer "yes" if given number is prime. Otherwise answer "no".\n'
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):

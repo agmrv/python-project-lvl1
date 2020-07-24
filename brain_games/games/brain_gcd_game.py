@@ -2,7 +2,7 @@
 
 from random import randint
 
-RULES = 'Welcome to the Brain Games!\nFind the greatest common divisor of given numbers.\n'
+RULES = 'Find the greatest common divisor of given numbers.'
 
 
 def gcd(num1, num2):

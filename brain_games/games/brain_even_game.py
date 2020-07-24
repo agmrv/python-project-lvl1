@@ -2,7 +2,7 @@
 
 from random import randint
 
-RULES = 'Welcome to the Brain Games!\nAnswer "yes" if number even otherwise answer "no".\n'
+RULES = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def start_game():

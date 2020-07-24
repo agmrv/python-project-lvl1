@@ -2,7 +2,7 @@
 
 from random import randint
 
-RULES = 'Welcome to the Brain Games!\nWhat number is missing in the progression?\n'
+RULES = 'What number is missing in the progression?'
 
 
 def get_progression(step, hidden_num_index):
