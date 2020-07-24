@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "agmrv_brain_games"
-version = "0.7.0"
+version = "0.7.1"
 description = "The Brain Games: Even, Calc, GCD, Progression, Prime"
 authors = ["agmrv <agmrv@ya.ru>"]
 packages = [
