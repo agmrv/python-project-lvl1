@@ -1,6 +1,7 @@
 """'Brain-Calc' game logic."""
 
 from random import choice, randint
+import operator
 
 RULES = 'What is the result of the expression?'
 
@@ -19,10 +20,10 @@ def start_game():
     question = '{0} {1} {2}'.format(num1, current_operator, num2)
 
     if current_operator == '+':
-        correct_answer = str(num1 + num2)
+        correct_answer = str(operator.add(num1, num2))
     elif current_operator == '-':
-        correct_answer = str(num1 - num2)
+        correct_answer = str(operator.sub(num1, num2))
     else:
-        correct_answer = str(num1 * num2)
+        correct_answer = str(operator.mul(num1, num2))
 
     return question, correct_answer
