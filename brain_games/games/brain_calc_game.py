@@ -1,7 +1,7 @@
 """'Brain-Calc' game logic."""
 
-from random import choice, randint
 import operator
+from random import choice, randint
 
 RULES = 'What is the result of the expression?'
 
