@@ -19,8 +19,9 @@ def get_progression(step, hidden_num_index):
     iteration = 0
     progression = ''
     correct_answer = 0
+    length_of_progression = 10
 
-    while iteration < 10:
+    while iteration < length_of_progression:
         if iteration == hidden_num_index:
             correct_answer += first_num
             progression = '{0}{1}'.format(progression, '.. ')
