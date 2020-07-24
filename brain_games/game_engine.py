@@ -9,7 +9,7 @@ def welcome_to_brain_game(game):
     Args:
         game: The game.
     """
-    print('Welcome to the Brain Games!\n{}\n'.format(game.RULES))
+    print('Welcome to the Brain Games!\n{0}\n'.format(game.RULES))
 
 
 def start_game(game):
