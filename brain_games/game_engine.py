@@ -18,6 +18,7 @@ def start_game(game):
     Args:
         game: The game.
     """
+    welcome_to_brain_game(game)
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!\n'.format(name))
     iteration = 0

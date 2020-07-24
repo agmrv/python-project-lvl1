@@ -7,7 +7,6 @@ from brain_games import game_engine, games
 
 def main():
     """Start the 'Brain-Even' game."""
-    game_engine.welcome_to_brain_game(games.brain_gcd_game)
     game_engine.start_game(games.brain_gcd_game)
 
 
