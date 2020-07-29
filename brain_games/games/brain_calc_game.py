@@ -3,13 +3,13 @@
 import operator
 from random import choice, randint
 
-RULES = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 operators = ('+', '-', '*')
 
 
-def start_game():
-    """Start the 'Brain-Calc' game.
+def generate_game_data():
+    """Generate the 'Brain-Calc' game data.
 
     Returns:
         return the question and correct_answer.
@@ -20,10 +20,10 @@ def start_game():
     question = '{0} {1} {2}'.format(num1, current_operator, num2)
 
     if current_operator == '+':
-        correct_answer = str(operator.add(num1, num2))
+        correct_answer = operator.add(num1, num2)
     elif current_operator == '-':
-        correct_answer = str(operator.sub(num1, num2))
+        correct_answer = operator.sub(num1, num2)
     else:
-        correct_answer = str(operator.mul(num1, num2))
+        correct_answer = operator.mul(num1, num2)
 
-    return question, correct_answer
+    return question, str(correct_answer)

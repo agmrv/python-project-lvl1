@@ -2,7 +2,7 @@
 
 from random import randint
 
-RULES = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def gcd(num1, num2):
@@ -20,8 +20,8 @@ def gcd(num1, num2):
     return gcd(num2, num1 % num2)
 
 
-def start_game():
-    """Start the 'Brain-GCD' game.
+def generate_game_data():
+    """Generate the 'Brain-GCD' game data.
 
     Returns:
         return the question and correct_answer.

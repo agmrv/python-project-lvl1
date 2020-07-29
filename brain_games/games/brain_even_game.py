@@ -2,11 +2,11 @@
 
 from random import randint
 
-RULES = 'Answer "yes" if number even otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 
 
-def start_game():
-    """Start the 'Brain-Even' game.
+def generate_game_data():
+    """Generate the 'Brain-Even' data.
 
     Returns:
         return the question and correct_answer.

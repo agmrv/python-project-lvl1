@@ -3,36 +3,30 @@
 import prompt
 
 
-def welcome_to_brain_game(game):
-    """Print greeting and game rules.
+def play_game(game):
+    """Print greeting, game rules and play the 'Brain Game'.
 
     Args:
         game: The game.
     """
-    print('Welcome to the Brain Games!\n{0}\n'.format(game.RULES))
-
-
-def start_game(game):
-    """Star the 'Brain Game'.
-
-    Args:
-        game: The game.
-    """
-    welcome_to_brain_game(game)
-    name = prompt.string('May I have your name? ')
+    print('Welcome to the Brain Games!')
+    print(game.DESCRIPTION)
+    name = prompt.string('\nMay I have your name? ')
     print('Hello, {0}!\n'.format(name))
+    number_of_rounds = 3
     iteration = 0
 
-    while iteration < 3:
-        question, correct_answer = game.start_game()
-        user_answer = prompt.string('Question: {0}\nYour answer: '.format(question))
+    while iteration < number_of_rounds:
+        question, correct_answer = game.generate_game_data()
+        print('Question: {0}'.format(question))
+        user_answer = prompt.string('Your answer: ')
 
         if user_answer == correct_answer:
             print('Correct!')
             iteration += 1
         else:
-            print("'{0}' is wrong answer ;(. Correct answer was '{1}'.\nLet's try again, {2}!".format(user_answer, correct_answer, name))
-            break
+            print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(user_answer, correct_answer))
+            print("Let's try again, {0}!".format(name))
+            return
 
-    if iteration == 3:
-        print('Congratulation, {0}!'.format(name))
+    print('Congratulation, {0}!'.format(name))

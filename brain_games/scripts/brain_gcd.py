@@ -7,7 +7,7 @@ from brain_games import game_engine, games
 
 def main():
     """Start the 'Brain-Even' game."""
-    game_engine.start_game(games.brain_gcd_game)
+    game_engine.play_game(games.brain_gcd_game)
 
 
 if __name__ == '__main__':

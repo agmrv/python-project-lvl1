@@ -2,46 +2,28 @@
 
 from random import randint
 
-RULES = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-def get_progression(step, hidden_num_index):
-    """Get the progression.
-
-    Args:
-        step: progression step
-        hidden_num_index: hidden num index
-
-    Returns:
-        return question and correct_answer
-    """
-    first_num = randint(1, 10)
-    iteration = 0
-    progression = ''
-    correct_answer = 0
-    length_of_progression = 10
-
-    while iteration < length_of_progression:
-        if iteration == hidden_num_index:
-            correct_answer += first_num
-            progression = '{0}{1}'.format(progression, '.. ')
-            iteration += 1
-            first_num += step
-        else:
-            progression = '{0}{1}{2}'.format(progression, str(first_num), ' ')
-            iteration += 1
-            first_num += step
-
-    return progression[:-1], str(correct_answer)
-
-
-def start_game():
-    """Start the 'Brain-Progression' game.
+def generate_game_data():
+    """Generate the 'Brain-Progression' game data.
 
     Returns:
         return the question and correct_answer.
     """
+    length_of_progression = 10
+    first_num = randint(1, 10)
     step = randint(1, 10)
-    hidden_num_index = randint(0, 9)
+    hidden_num_index = randint(0, length_of_progression - 1)
+    question = ''
 
-    return get_progression(step, hidden_num_index)
+    for iteration in range(length_of_progression):
+        element_of_progression = first_num + step * iteration
+
+        if iteration == hidden_num_index:
+            correct_answer = str(element_of_progression)
+            question = '{0}{1}'.format(question, '.. ')
+        else:
+            question = '{0}{1}{2}'.format(question, str(element_of_progression), ' ')
+
+    return question[:-1], correct_answer

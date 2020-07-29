@@ -2,7 +2,7 @@
 
 from random import randint
 
-RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -14,14 +14,16 @@ def is_prime(number):
     Returns:
         return True or False
     """
+    if number < 2:
+        return False
     for divider in range(2, round(number / 2) + 1):  # '+ 1' for case number is 4
         if number % divider == 0:
             return False
     return True
 
 
-def start_game():
-    """Start the 'Brain-Prime' game.
+def generate_game_data():
+    """Generate the 'Brain-Prime' game data.
 
     Returns:
         return the question and correct_answer.
