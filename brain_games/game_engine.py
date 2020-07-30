@@ -2,6 +2,8 @@
 
 import prompt
 
+number_of_rounds = 3
+
 
 def play_game(game):
     """Print greeting, game rules and play the 'Brain Game'.
@@ -13,7 +15,6 @@ def play_game(game):
     print(game.DESCRIPTION)
     name = prompt.string('\nMay I have your name? ')
     print('Hello, {0}!\n'.format(name))
-    number_of_rounds = 3
     iteration = 0
 
     while iteration < number_of_rounds:

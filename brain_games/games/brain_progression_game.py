@@ -3,6 +3,7 @@
 from random import randint
 
 DESCRIPTION = 'What number is missing in the progression?'
+LENGTH_OF_PROGRESSION = 10
 
 
 def generate_game_data():
@@ -11,19 +12,17 @@ def generate_game_data():
     Returns:
         return the question and correct_answer.
     """
-    length_of_progression = 10
     first_num = randint(1, 10)
     step = randint(1, 10)
-    hidden_num_index = randint(0, length_of_progression - 1)
+    hidden_num_index = randint(0, LENGTH_OF_PROGRESSION - 1)
     question = ''
 
-    for iteration in range(length_of_progression):
-        element_of_progression = first_num + step * iteration
+    for iteration in range(LENGTH_OF_PROGRESSION):
 
         if iteration == hidden_num_index:
-            correct_answer = str(element_of_progression)
+            correct_answer = str(first_num + step * iteration)
             question = '{0}{1}'.format(question, '.. ')
         else:
-            question = '{0}{1}{2}'.format(question, str(element_of_progression), ' ')
+            question = '{0}{1}{2}'.format(question, str(first_num + step * iteration), ' ')
 
     return question[:-1], correct_answer
