@@ -2,7 +2,7 @@
 
 import prompt
 
-number_of_rounds = 3
+NUMBER_OF_ROUNDS = 3
 
 
 def play_game(game):
@@ -17,7 +17,7 @@ def play_game(game):
     print('Hello, {0}!\n'.format(name))
     iteration = 0
 
-    while iteration < number_of_rounds:
+    while iteration < NUMBER_OF_ROUNDS:
         question, correct_answer = game.generate_game_data()
         print('Question: {0}'.format(question))
         user_answer = prompt.string('Your answer: ')
