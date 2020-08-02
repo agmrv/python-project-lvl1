@@ -1,4 +1,4 @@
 """The games."""
-from brain_games.games import brain_calc_game, brain_even_game, brain_gcd_game, brain_progression_game, brain_prime_game
+from brain_games.games import calc, even, gcd, progression, prime
 
-__all__ = ('brain_calc_game', 'brain_even_game', 'brain_gcd_game', 'brain_progression_game', 'brain_prime_game')  # noqa: WPS410
+__all__ = ('calc', 'even', 'gcd', 'progression', 'prime')  # noqa: WPS410
