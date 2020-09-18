@@ -17,12 +17,16 @@
 [Here](https://test.pypi.org/project/agmrv-brain-games/#files) you can download the latest version of the "Brain Games" package.
 
 ## The "Brain-Even" game:
-[![asciicast](https://asciinema.org/a/Vpqpuybx8aBbJFYc1YljEGiCN.svg)](https://asciinema.org/a/Vpqpuybx8aBbJFYc1YljEGiCN)
+<a href="https://asciinema.org/a/Vpqpuybx8aBbJFYc1YljEGiCN"><img src="https://asciinema.org/a/Vpqpuybx8aBbJFYc1YljEGiCN.svg" width="600" ></a>
+
 ## The "Brain-Calc" game:
-[![asciicast](https://asciinema.org/a/Jj4QIPl11QiKxqwwVKsEuU3KO.svg)](https://asciinema.org/a/Jj4QIPl11QiKxqwwVKsEuU3KO)
+<a href="https://asciinema.org/a/Jj4QIPl11QiKxqwwVKsEuU3KO"><img src="https://asciinema.org/a/Jj4QIPl11QiKxqwwVKsEuU3KO.svg" width="600" ></a>
+
 ## The "Brain-GCD" game:
-[![asciicast](https://asciinema.org/a/7Mqm9jxTYIABXRmChgZsvHu6p.svg)](https://asciinema.org/a/7Mqm9jxTYIABXRmChgZsvHu6p)
+<a href="https://asciinema.org/a/7Mqm9jxTYIABXRmChgZsvHu6p"><img src="https://asciinema.org/a/7Mqm9jxTYIABXRmChgZsvHu6p.svg" width="600" ></a>
+
 ## The "Brain-Progression" game:
-[![asciicast](https://asciinema.org/a/TttvIucfG7cAlso6o1txDMFBF.svg)](https://asciinema.org/a/TttvIucfG7cAlso6o1txDMFBF)
+<a href="https://asciinema.org/a/TttvIucfG7cAlso6o1txDMFBF"><img src="https://asciinema.org/a/TttvIucfG7cAlso6o1txDMFBF.svg" width="600" ></a>
+
 ## The "Brain-Prime" game:
-[![asciicast](https://asciinema.org/a/0mltNNh1CQRbAfN8oCjPzwmyO.svg)](https://asciinema.org/a/0mltNNh1CQRbAfN8oCjPzwmyO)
+<a href="https://asciinema.org/a/0mltNNh1CQRbAfN8oCjPzwmyO"><img src="https://asciinema.org/a/0mltNNh1CQRbAfN8oCjPzwmyO.svg" width="600" ></a>
