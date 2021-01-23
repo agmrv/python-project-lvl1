@@ -1,6 +1,9 @@
 [![Python CI](https://github.com/agmrv/python-project-lvl1/workflows/Python%20CI/badge.svg)](https://github.com/agmrv/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b2cb282c36fe9254b9fd/maintainability)](https://codeclimate.com/github/agmrv/python-project-lvl1/maintainability)
 
+### Hexlet tests and linter status:
+![hexlet-check](https://github.com/agmrv/python-project-lvl1/workflows/hexlet-check/badge.svg)
+
 # Hello!
 
 ## It contains:
