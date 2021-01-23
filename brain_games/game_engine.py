@@ -12,9 +12,9 @@ def play_game(game):
         game: The game.
     """
     print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print('Hello, {0}!'.format(name))
     print(game.DESCRIPTION)
-    name = prompt.string('\nMay I have your name? ')
-    print('Hello, {0}!\n'.format(name))
     iteration = 0
 
     while iteration < NUMBER_OF_ROUNDS:
