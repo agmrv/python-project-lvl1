@@ -30,4 +30,4 @@ def play_game(game):
             print("Let's try again, {0}!".format(name))
             return
 
-    print('Congratulation, {0}!'.format(name))
+    print('Congratulations, {0}!'.format(name))
