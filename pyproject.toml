@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "agmrv_brain_games"
+name = "hexlet-code"
 version = "0.7.3"
 description = "The Brain Games: Even, Calc, GCD, Progression, Prime"
 authors = ["agmrv <agmrv@ya.ru>"]
