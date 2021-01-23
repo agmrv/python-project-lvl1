@@ -16,7 +16,7 @@ def is_prime(number):
     """
     if number < 2:
         return False
-    for divider in range(2, round(number / 2) + 1):  # '+ 1' for case number is 4
+    for divider in range(2, round(number / 2) + 1):  # '+ 1' for case number 4
         if number % divider == 0:
             return False
     return True
@@ -29,5 +29,5 @@ def generate_game_data():
         return the question and correct_answer.
     """
     question = randint(3, 100)
-    correct_answer = 'yes' if is_prime(question) else 'no'
+    correct_answer = "yes" if is_prime(question) else "no"
     return str(question), correct_answer
